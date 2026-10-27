@@ -58,7 +58,7 @@
 <img src="./assets/icons/check-done.svg" width="18" alt="done"> <b>Blue Ticks After Reply</b><br>
 <img src="./assets/icons/check-done.svg" width="18" alt="done"> <b>Hide Typing / Recording Audio</b><br>
 <img src="./assets/icons/check-done.svg" width="18" alt="done"> <b>Download Status / Copy Status Text</b><br>
-<img src="./assets/icons/check-done.svg" width="18" alt="done"> <b>Fix SMS</b><br>
+<img src="./assets/icons/check-done.svg" width="18" alt="done"> <b>Signature Bypass</b><br>
 <img src="./assets/icons/check-orange.svg" width="18" alt="partial"> <b>Bypass Anti Ban</b><br>
 <img src="./assets/icons/check-pending.svg" width="18" alt="pending"> <b>Anti View Once</b><br>
 <img src="./assets/icons/check-pending.svg" width="18" alt="pending"> <b>Design Mods</b>
@@ -376,7 +376,7 @@
 
 </details>
 
-<img src="./assets/icons/lock.svg" width="16" alt=""> <b>Fix SMS / Bypass Anti Ban</b>
+<img src="./assets/icons/lock.svg" width="16" alt=""> <b>Signature Bypass / Bypass Anti Ban</b>
 
 <p><img src="https://img.shields.io/badge/⚠%20restricted%20—%20WhatsApp%20policy-c1121f?style=flat-square&labelColor=8b0000"></p>
 
