@@ -376,12 +376,12 @@
 
 </details>
 
-<img src="./assets/icons/lock.svg" width="16" alt=""> <b>Signature Bypass / Bypass Anti Ban</b>
+<details>
+<summary><img src="./assets/icons/lock.svg" width="16" alt=""> <b>Signature Bypass / Bypass Anti Ban</b></summary>
 
-<p><img src="https://img.shields.io/badge/⚠%20restricted%20—%20WhatsApp%20policy-c1121f?style=flat-square&labelColor=8b0000"></p>
+<sub>⚠ Restricted by WhatsApp policy — hooking instructions not provided.</sub>
 
-> [!CAUTION]
-> Per WhatsApp’s policies, instructions for hooking this part are not provided here.
+</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/contributing_dark.png">
