@@ -383,6 +383,8 @@
 
 </details>
 
+<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/contributing_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/headings/contributing_light.png">
