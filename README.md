@@ -18,11 +18,11 @@
 <br>
 
 <p>
-  <img src="https://img.shields.io/badge/2.26.36.70-25D366?style=flat-square&logo=whatsapp&logoColor=white">
+  <img src="https://img.shields.io/badge/2.26.36.70-16A34A?style=flat&logo=whatsapp&logoColor=white">
   &nbsp;
-  <img src="https://img.shields.io/badge/Unofficial-1a1a1a?style=flat-square">
+  <img src="https://img.shields.io/badge/Unofficial-1a1a1a?style=flat">
   <br>
-  <img src="https://img.shields.io/badge/license%20%7C%20MIT-1a1a1a?style=flat-square">
+  <img src="https://img.shields.io/badge/license%20%7C%20MIT-1a1a1a?style=flat">
 </p>
 
 </div>
