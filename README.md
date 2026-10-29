@@ -44,9 +44,9 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/features_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/features_light.png">
-  <img src="./assets/headings/features_light.png" height="34" alt="Features">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/features_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/features_light.svg">
+  <img src="./assets/headings/features_light.svg" height="26" alt="Features">
 </picture>
 
 <br>
@@ -69,9 +69,9 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/map_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/map_light.png">
-  <img src="./assets/headings/map_light.png" height="34" alt="Map">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/map_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/map_light.svg">
+  <img src="./assets/headings/map_light.svg" height="26" alt="Map">
 </picture>
 
 <br>
@@ -388,9 +388,9 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/contributing_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/contributing_light.png">
-  <img src="./assets/headings/contributing_light.png" height="34" alt="Contributing">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/contributing_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/contributing_light.svg">
+  <img src="./assets/headings/contributing_light.svg" height="26" alt="Contributing">
 </picture>
 
 <br>
@@ -410,9 +410,9 @@ revert on its own if it turns out to be wrong.
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/license_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/license_light.png">
-  <img src="./assets/headings/license_light.png" height="34" alt="License">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/license_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/license_light.svg">
+  <img src="./assets/headings/license_light.svg" height="26" alt="License">
 </picture>
 
 <p>Released under the <a href="./LICENSE"><b>MIT License</b></a>.</p>
