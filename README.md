@@ -41,6 +41,8 @@
 <img src="./assets/icons/phone.svg" width="16" alt=""> <b>WhatsApp</b> <code>2.26.36.70</code>
 </p>
 
+<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/features_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="./assets/headings/features_light.png">
