@@ -18,11 +18,11 @@
 <br>
 
 <p>
-  <img src="https://img.shields.io/badge/2.26.36.70-25D366?style=flat-square&logo=whatsapp&logoColor=white">
+  <img src="https://img.shields.io/badge/2.26.36.70-16A34A?style=flat&logo=whatsapp&logoColor=white">
   &nbsp;
-  <img src="https://img.shields.io/badge/Unofficial-1a1a1a?style=flat-square">
+  <img src="https://img.shields.io/badge/Unofficial-1a1a1a?style=flat">
   <br>
-  <img src="https://img.shields.io/badge/license%20%7C%20MIT-1a1a1a?style=flat-square">
+  <img src="https://img.shields.io/badge/license%20%7C%20MIT-1a1a1a?style=flat">
 </p>
 
 </div>
@@ -35,16 +35,18 @@
 <p align="center"><b>Requirements</b></p>
 
 <p align="left">
-<img src="./assets/icons/gear.svg" width="16" alt=""> <b>Apktool</b> <code>3.0.2</code><br>
+<img src="./assets/icons/gear.svg" width="16" alt=""> <b>Apktool</b> <code>3.0.3+</code><br>
 <img src="./assets/icons/coffee.svg" width="16" alt=""> <b>JDK</b> <code>17+</code><br>
-<img src="./assets/icons/android.svg" width="16" alt=""> <b>Android SDK</b> build-tools (<code>zipalign</code>, <code>apksigner</code>)<br>
+<img src="./assets/icons/android.svg" width="16" alt=""> <b>Android SDK</b> <code>build-tools</code><br>
 <img src="./assets/icons/phone.svg" width="16" alt=""> <b>WhatsApp</b> <code>2.26.36.70</code>
 </p>
 
+<br>
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/features_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/features_light.png">
-  <img src="./assets/headings/features_light.png" height="34" alt="Features">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/features_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/features_light.svg">
+  <img src="./assets/headings/features_light.svg" height="26" alt="Features">
 </picture>
 
 <br>
@@ -67,9 +69,9 @@
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/map_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/map_light.png">
-  <img src="./assets/headings/map_light.png" height="34" alt="Map">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/map_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/map_light.svg">
+  <img src="./assets/headings/map_light.svg" height="26" alt="Map">
 </picture>
 
 <br>
@@ -379,16 +381,16 @@
 <details>
 <summary><img src="./assets/icons/lock.svg" width="16" alt=""> <b>Signature Bypass / Bypass Anti Ban</b></summary>
 
-<sub>⚠ Restricted by WhatsApp policy — hooking instructions not provided.</sub>
+<sub>Available in release builds. Its hook sites and mechanism aren't documented here.</sub>
 
 </details>
 
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/contributing_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/contributing_light.png">
-  <img src="./assets/headings/contributing_light.png" height="34" alt="Contributing">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/contributing_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/contributing_light.svg">
+  <img src="./assets/headings/contributing_light.svg" height="26" alt="Contributing">
 </picture>
 
 <br>
@@ -408,9 +410,9 @@ revert on its own if it turns out to be wrong.
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/license_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/license_light.png">
-  <img src="./assets/headings/license_light.png" height="34" alt="License">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/license_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/license_light.svg">
+  <img src="./assets/headings/license_light.svg" height="26" alt="License">
 </picture>
 
 <p>Released under the <a href="./LICENSE"><b>MIT License</b></a>.</p>
