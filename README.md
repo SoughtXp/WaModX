@@ -81,7 +81,7 @@
 <details>
 <summary><img src="./assets/icons/freeze.svg" width="16" alt=""> <b>Freeze Last Seen</b> → <code>LX/17Q.A00</code>, <code>LX/1cv.A00</code></summary>
 
-**`smali/X/17Q.smali`** · `LX/17Q;->A00(Landroid/os/Message;)V` · L108–L120
+**`smali/X/17Q.smali`** · `LX/17Q;->A00(Landroid/os/Message;)V` · Lines 108–120
 
 ```smali
     108
@@ -99,7 +99,7 @@
 »   120      if-eqz v0, :cond_continue_normal
 ```
 
-**`smali_classes2/X/1cv.smali`** · `LX/1cv;->A00(LX/1cv;Z)V` · L214–L229
+**`smali_classes2/X/1cv.smali`** · `LX/1cv;->A00(LX/1cv;Z)V` · Lines 214–229
 
 ```smali
     214      .line 94
@@ -127,7 +127,7 @@
 <details>
 <summary><img src="./assets/icons/ticks.svg" width="16" alt=""> <b>Hide Blue Ticks</b> → <code>LX/18p.A0O</code>, <code>LX/18p.A0Y</code></summary>
 
-**`smali/X/18p.smali`** · `LX/18p;->A0O(LX/1Ex;Z)V` · L4392–L4404
+**`smali/X/18p.smali`** · `LX/18p;->A0O(LX/1Ex;Z)V` · Lines 4392–4404
 
 ```smali
    4392      .line 2
@@ -145,7 +145,7 @@
 »  4404      .catch Ljava/lang/Throwable; {:try_start_A0o .. :try_end_A0o} :catch_A0o
 ```
 
-**`smali/X/18p.smali`** · `LX/18p;->A0Y(LX/1Ex;)Z` · L8533–L8545
+**`smali/X/18p.smali`** · `LX/18p;->A0Y(LX/1Ex;)Z` · Lines 8533–8545
 
 ```smali
    8533
@@ -170,7 +170,7 @@
 <details>
 <summary><img src="./assets/icons/reply.svg" width="16" alt=""> <b>Blue Ticks After Reply</b> → <code>SendE2EMessageJob.A0G</code></summary>
 
-**`smali_classes5/com/whatsapp/jobqueue/job/SendE2EMessageJob.smali`** · `Lcom/whatsapp/jobqueue/job/SendE2EMessageJob;->A0G()V` · L9730–L9746
+**`smali_classes5/com/whatsapp/jobqueue/job/SendE2EMessageJob.smali`** · `Lcom/whatsapp/jobqueue/job/SendE2EMessageJob;->A0G()V` · Lines 9730–9746
 
 ```smali
    9730  .method public A0G()V
@@ -199,7 +199,7 @@
 <details>
 <summary><img src="./assets/icons/hourglass.svg" width="16" alt=""> <b>Read Receipt Job</b> → <code>SendReadReceiptJob.A0G</code></summary>
 
-**`smali_classes7/com/whatsapp/messaging/receipts/jobqueue/job/SendReadReceiptJob.smali`** · `Lcom/whatsapp/messaging/receipts/jobqueue/job/SendReadReceiptJob;->A0G()V` · L628–L646
+**`smali_classes7/com/whatsapp/messaging/receipts/jobqueue/job/SendReadReceiptJob.smali`** · `Lcom/whatsapp/messaging/receipts/jobqueue/job/SendReadReceiptJob;->A0G()V` · Lines 628–646
 
 ```smali
     628  .method public A0G()V
@@ -230,7 +230,7 @@
 <details>
 <summary><img src="./assets/icons/undo.svg" width="16" alt=""> <b>Anti Revoke Messages</b> → <code>LX/1DU.A00</code>, <code>LX/BOY.getDateView</code></summary>
 
-**`smali/X/1DU.smali`** · `LX/1DU;->A00(LX/1DU;LX/1Ex;IZ)LX/7jd;` · L768–L783
+**`smali/X/1DU.smali`** · `LX/1DU;->A00(LX/1DU;LX/1Ex;IZ)LX/7jd;` · Lines 768–783
 
 ```smali
     768  .method public static A00(LX/1DU;LX/1Ex;IZ)LX/7jd;
@@ -251,7 +251,7 @@
 »   783      new-instance v2, LX/7jd;
 ```
 
-**`smali_classes7/X/BOY.smali`** · `LX/BOY;->getDateView()Landroid/widget/TextView;` · L21476–L21490
+**`smali_classes7/X/BOY.smali`** · `LX/BOY;->getDateView()Landroid/widget/TextView;` · Lines 21476–21490
 
 ```smali
   21476      .line 14
@@ -278,7 +278,7 @@
 <details>
 <summary><img src="./assets/icons/mic.svg" width="16" alt=""> <b>Hide Typing / Recording</b> → <code>LX/1im.CCQ</code>, <code>LX/6nE.A01</code></summary>
 
-**`smali_classes2/X/1im.smali`** · `LX/1im;->CCQ(Landroid/os/Message;)V` · L286–L300
+**`smali_classes2/X/1im.smali`** · `LX/1im;->CCQ(Landroid/os/Message;)V` · Lines 286–300
 
 ```smali
     286      .line 9
@@ -298,7 +298,7 @@
     300      .line 16
 ```
 
-**`smali_classes5/X/6nE.smali`** · `LX/6nE;->A01(LX/0Cw;LX/6nE;IZ)V` · L363–L378
+**`smali_classes5/X/6nE.smali`** · `LX/6nE;->A01(LX/0Cw;LX/6nE;IZ)V` · Lines 363–378
 
 ```smali
     363      .line 86
@@ -326,7 +326,7 @@
 <details>
 <summary><img src="./assets/icons/status.svg" width="16" alt=""> <b>Status Actions</b> → <code>StatusPlaybackContactFragment.A0K</code></summary>
 
-**`smali_classes10/com/whatsapp/status/playback/fragment/StatusPlaybackContactFragment.smali`** · `Lcom/whatsapp/status/playback/fragment/StatusPlaybackContactFragment;->A0K(LX/LdP;LX/Lbv;...)V` · L6841–L6856
+**`smali_classes10/com/whatsapp/status/playback/fragment/StatusPlaybackContactFragment.smali`** · `Lcom/whatsapp/status/playback/fragment/StatusPlaybackContactFragment;->A0K(LX/LdP;LX/Lbv;...)V` · Lines 6841–6856
 
 ```smali
    6841      .line 310
@@ -354,7 +354,7 @@
 <details>
 <summary><img src="./assets/icons/sliders.svg" width="16" alt=""> <b>Settings Entry</b> → <code>SettingsTabActivity.onResume</code></summary>
 
-**`smali_classes8/com/whatsapp/settings/ui/SettingsTabActivity.smali`** · `Lcom/whatsapp/settings/ui/SettingsTabActivity;->onResume()V` · L15998–L16012
+**`smali_classes8/com/whatsapp/settings/ui/SettingsTabActivity.smali`** · `Lcom/whatsapp/settings/ui/SettingsTabActivity;->onResume()V` · Lines 15998–16012
 
 ```smali
   15998      .line 20
