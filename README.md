@@ -35,7 +35,7 @@
 <p align="center"><b>Requirements</b></p>
 
 <p align="left">
-<img src="./assets/icons/gear.svg" width="16" alt=""> <b>Apktool</b> <code>3.0.2</code><br>
+<img src="./assets/icons/gear.svg" width="16" alt=""> <b>Apktool</b> <code>3.0.3+</code><br>
 <img src="./assets/icons/coffee.svg" width="16" alt=""> <b>JDK</b> <code>17+</code><br>
 <img src="./assets/icons/android.svg" width="16" alt=""> <b>Android SDK</b> build-tools (<code>zipalign</code>, <code>apksigner</code>)<br>
 <img src="./assets/icons/phone.svg" width="16" alt=""> <b>WhatsApp</b> <code>2.26.36.70</code>
