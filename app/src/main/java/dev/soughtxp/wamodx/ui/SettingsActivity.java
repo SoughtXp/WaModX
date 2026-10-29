@@ -46,7 +46,7 @@ public class SettingsActivity extends BaseActivity {
         if (getSupportActionBar() != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-        setContentView(ResUtils.LAYOUT.get("settings"));
+        setContentView(ResUtils.LAYOUT.get("wamodx_settings"));
         setupViews();
         setupNewListViewItems();
         setupSwitches();
@@ -56,9 +56,9 @@ public class SettingsActivity extends BaseActivity {
     }
 
     private void setupSwitches() {
-        setupSwitch("freeze_lastseen_row", "freeze_lastseen_switch", KEY_FREEZE_LAST_SEEN);
-        setupSwitch("hide_composing_row", "hide_composing_switch", KEY_HIDE_COMPOSING);
-        setupSwitch("anti_status_view_row", "anti_status_view_switch", KEY_ANTI_STATUS_VIEW);
+        setupSwitch("wamodx_freeze_lastseen_row", "wamodx_freeze_lastseen_switch", KEY_FREEZE_LAST_SEEN);
+        setupSwitch("wamodx_hide_composing_row", "wamodx_hide_composing_switch", KEY_HIDE_COMPOSING);
+        setupSwitch("wamodx_anti_status_view_row", "wamodx_anti_status_view_switch", KEY_ANTI_STATUS_VIEW);
     }
 
     private void setupSwitch(String rowId, String switchId, final String key) {
@@ -79,9 +79,9 @@ public class SettingsActivity extends BaseActivity {
     }
 
     private void setupViews() {
-        contactsItem = findViewById(ResUtils.ID.get("contacts_item"));
-        groupsItem = findViewById(ResUtils.ID.get("groups_item"));
-        warningContainer = findViewById(ResUtils.ID.get("caution_strip"));
+        contactsItem = findViewById(ResUtils.ID.get("wamodx_contacts_item"));
+        groupsItem = findViewById(ResUtils.ID.get("wamodx_groups_item"));
+        warningContainer = findViewById(ResUtils.ID.get("wamodx_warning_row"));
 
         if (contactsItem != null) {
             contactsItem.setOnClickListener(new View.OnClickListener() {
@@ -103,7 +103,7 @@ public class SettingsActivity extends BaseActivity {
     }
 
     private void setupNewListViewItems() {
-        githubItem = findViewById(ResUtils.ID.get("github_item"));
+        githubItem = findViewById(ResUtils.ID.get("wamodx_gh_item"));
         if (githubItem != null) {
             if (githubItem.getItemSubTextView() != null) {
                 githubItem.getItemSubTextView().setText(ResUtils.STRING.get("wamodx_gh_subtitle"));
@@ -116,7 +116,7 @@ public class SettingsActivity extends BaseActivity {
             });
         }
 
-        clearCacheItem = findViewById(ResUtils.ID.get("clear_cache_item"));
+        clearCacheItem = findViewById(ResUtils.ID.get("wamodx_clear_cache_item"));
         if (clearCacheItem != null) {
             clearCacheItem.setOnClickListener(new View.OnClickListener() {
                 @Override

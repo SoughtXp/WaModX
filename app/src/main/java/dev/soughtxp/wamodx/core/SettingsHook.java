@@ -21,7 +21,7 @@ public class SettingsHook {
             android.content.Context context = container.getContext();
             if (context == null) return;
 
-            int layoutId = ResUtils.LAYOUT.get("privacy_row");
+            int layoutId = ResUtils.LAYOUT.get("wamodx_privacy_row");
             LayoutInflater inflater = LayoutInflater.from(context);
             final View view = inflater.inflate(layoutId, container, false);
             if (view == null) return;
