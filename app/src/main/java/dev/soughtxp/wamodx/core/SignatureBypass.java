@@ -72,4 +72,12 @@ public class SignatureBypass {
     public static Signature[] getSignatures(Object packageInfo) {
         return getOfficialSignatures();
     }
+
+    public static boolean isRootCheckPassed() {
+        return true;
+    }
+
+    public static boolean isEmulatorCheckPassed() {
+        return true;
+    }
 }
