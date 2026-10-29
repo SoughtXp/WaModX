@@ -69,6 +69,28 @@
 <br>
 
 <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/screenshots_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/headings/screenshots_light.svg">
+  <img src="./assets/headings/screenshots_light.svg" height="26" alt="Screenshots">
+</picture>
+
+<br>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center"><img src="./assets/screenshots/screenshot-1.jpg" width="230" alt="Secret Features"></td>
+<td align="center"><img src="./assets/screenshots/screenshot-2.jpg" width="230" alt="Blue Ticks modes"></td>
+<td align="center"><img src="./assets/screenshots/screenshot-3.jpg" width="230" alt="Anti Revoke Messages"></td>
+</tr>
+</table>
+
+</div>
+
+<br>
+
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/headings/map_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/headings/map_light.svg">
   <img src="./assets/headings/map_light.svg" height="26" alt="Map">
