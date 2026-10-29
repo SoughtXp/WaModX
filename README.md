@@ -76,7 +76,7 @@
 
 <p>Where each hook lands in the host — one <code>invoke-static</code> per call site. Open a feature to see the real smali print and how it works.</p>
 
-<p>In every print the lines flagged with <code>»</code> down the left margin are WaModX's injected hook — the whole block, not just the <code>invoke-static</code> line. Unflagged lines are WhatsApp's own code, kept for context; the numbers beside them are the host method's own line numbers.</p>
+<p><img src="./assets/icons/inject.svg" width="16" alt=""> In every print the lines flagged with <code>»</code> down the left margin are WaModX's injected hook — the whole block, not just the <code>invoke-static</code> line. Unflagged lines are WhatsApp's own code, kept for context; the numbers beside them are the host method's own line numbers.</p>
 
 <details>
 <summary><img src="./assets/icons/freeze.svg" width="16" alt=""> <b>Freeze Last Seen</b> → <code>LX/17Q.A00</code>, <code>LX/1cv.A00</code></summary>
