@@ -379,7 +379,7 @@
 <details>
 <summary><img src="./assets/icons/lock.svg" width="16" alt=""> <b>Signature Bypass / Bypass Anti Ban</b></summary>
 
-<sub>⚠ Restricted by WhatsApp policy — hooking instructions not provided.</sub>
+<sub>Available in release builds. Its hook sites and mechanism aren't documented here.</sub>
 
 </details>
 
