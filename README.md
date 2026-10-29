@@ -89,14 +89,14 @@
     110      if-ne v0, v1, :cond_continue_normal
     111
     112      .line 11
-    113      :cond_check_freeze
+»   113      :cond_check_freeze
 »   114      invoke-static {}, Ldev/soughtxp/wamodx/core/LastSeenPrivacy;->freezeLastSeen()Z
-    115
-    116      .line 12
-    117      move-result v0
-    118
-    119      .line 13
-    120      if-eqz v0, :cond_continue_normal
+»   115
+»   116      .line 12
+»   117      move-result v0
+»   118
+»   119      .line 13
+»   120      if-eqz v0, :cond_continue_normal
 ```
 
 **`smali_classes2/X/1cv.smali`** · `LX/1cv;->A00(LX/1cv;Z)V` · L214–L229
@@ -110,14 +110,14 @@
     219      .locals 8
     220
 »   221      invoke-static {}, Ldev/soughtxp/wamodx/core/LastSeenPrivacy;->freezeLastSeen()Z
-    222
-    223      move-result v0
-    224
-    225      if-eqz v0, :continue_normal
-    226
-    227      return-void
-    228
-    229      :continue_normal
+»   222
+»   223      move-result v0
+»   224
+»   225      if-eqz v0, :continue_normal
+»   226
+»   227      return-void
+»   228
+»   229      :continue_normal
 ```
 
 > Presence / last-seen push paths. The `invoke-static` calls `LastSeenPrivacy.freezeLastSeen()` (reads the `freezeLastSeen` pref, no args, boolean); 17Q gates it in `:cond_check_freeze`, 1cv puts it first. A true result makes the host `return-void`, so the last-seen packet is never sent.
@@ -134,15 +134,15 @@
    4393      .line 3
    4394      move-object/from16 v1, p1
    4395
-   4396      :try_start_A0o
-   4397      move-object/from16 v2, p0
+»  4396      :try_start_A0o
+»  4397      move-object/from16 v2, p0
 »  4398      invoke-static {v2, v1}, Ldev/soughtxp/wamodx/core/ReadReceiptPrivacy;->onReadReceipt(Ljava/lang/Object;Ljava/lang/Object;)Z
-   4399      move-result v2
-   4400      if-eqz v2, :cond_A0o_pass
-   4401      return-void
-   4402      :cond_A0o_pass
-   4403      :try_end_A0o
-   4404      .catch Ljava/lang/Throwable; {:try_start_A0o .. :try_end_A0o} :catch_A0o
+»  4399      move-result v2
+»  4400      if-eqz v2, :cond_A0o_pass
+»  4401      return-void
+»  4402      :cond_A0o_pass
+»  4403      :try_end_A0o
+»  4404      .catch Ljava/lang/Throwable; {:try_start_A0o .. :try_end_A0o} :catch_A0o
 ```
 
 **`smali/X/18p.smali`** · `LX/18p;->A0Y(LX/1Ex;)Z` · L8533–L8545
@@ -152,15 +152,15 @@
    8534      .line 1
    8535      move-object/from16 v1, p1
    8536
-   8537      :try_start_A0y
-   8538      move-object/from16 v2, p0
+»  8537      :try_start_A0y
+»  8538      move-object/from16 v2, p0
 »  8539      invoke-static {v2, v1}, Ldev/soughtxp/wamodx/core/ReadReceiptPrivacy;->onReadReceipt(Ljava/lang/Object;Ljava/lang/Object;)Z
-   8540      move-result v2
-   8541      if-eqz v2, :cond_A0y_pass
-   8542      const/4 v4, 0x0
-   8543      return v4
-   8544      :cond_A0y_pass
-   8545      :try_end_A0y
+»  8540      move-result v2
+»  8541      if-eqz v2, :cond_A0y_pass
+»  8542      const/4 v4, 0x0
+»  8543      return v4
+»  8544      :cond_A0y_pass
+»  8545      :try_end_A0y
 ```
 
 > Read-receipt emission paths (`1Ex` = FMessage). Inside `try/catch` the hook gets `(this, message)` and `ReadReceiptPrivacy.onReadReceipt` returns true to suppress. A0O then `return-void`s; A0Y returns `false` instead of its normal value.
@@ -179,11 +179,11 @@
    9733      .line 0
    9734      move-object/from16 v0, p0
    9735
-   9736      :try_start_reply
+»  9736      :try_start_reply
 »  9737      invoke-static {v0}, Ldev/soughtxp/wamodx/core/ReadReceiptPrivacy;->onReply(Ljava/lang/Object;)V
-   9738      :try_end_reply
-   9739      .catch Ljava/lang/Throwable; {:try_start_reply .. :try_end_reply} :catch_reply
-   9740      :catch_reply
+»  9738      :try_end_reply
+»  9739      .catch Ljava/lang/Throwable; {:try_start_reply .. :try_end_reply} :catch_reply
+»  9740      :catch_reply
    9741
    9742      .line 1
    9743      .line 2
@@ -208,15 +208,15 @@
     631      .line 0
     632      move-object/from16 v1, p0
     633
-    634      :try_start_bt
+»   634      :try_start_bt
 »   635      invoke-static {v1}, Ldev/soughtxp/wamodx/core/ReadReceiptPrivacy;->onReceiptJob(Ljava/lang/Object;)Z
-    636      move-result v0
-    637      if-eqz v0, :cond_bt_pass
-    638      return-void
-    639      :cond_bt_pass
-    640      :try_end_bt
-    641      .catch Ljava/lang/Throwable; {:try_start_bt .. :try_end_bt} :catch_bt
-    642      :catch_bt
+»   636      move-result v0
+»   637      if-eqz v0, :cond_bt_pass
+»   638      return-void
+»   639      :cond_bt_pass
+»   640      :try_end_bt
+»   641      .catch Ljava/lang/Throwable; {:try_start_bt .. :try_end_bt} :catch_bt
+»   642      :catch_bt
     643
     644      .line 1
     645      .line 2
@@ -236,19 +236,19 @@
     768  .method public static A00(LX/1DU;LX/1Ex;IZ)LX/7jd;
     769      .locals 40
     770
-    771      move-object/from16 v1, p1
-    772
-    773      const/4 v0, 0x0
-    774
+»   771      move-object/from16 v1, p1
+»   772
+»   773      const/4 v0, 0x0
+»   774
 »   775      invoke-static {v1, v0}, Ldev/soughtxp/wamodx/core/MessageRevokePrivacy;->antiRevoke(Ljava/lang/Object;Landroid/widget/TextView;)Z
-    776
-    777      move-result v0
-    778
-    779      if-eqz v0, :cond_antirevoke
-    780
-    781      sget-object v0, LX/8Xn;->A00:LX/8Xn;
-    782      const/4 v1, 0x1
-    783      new-instance v2, LX/7jd;
+»   776
+»   777      move-result v0
+»   778
+»   779      if-eqz v0, :cond_antirevoke
+»   780
+»   781      sget-object v0, LX/8Xn;->A00:LX/8Xn;
+»   782      const/4 v1, 0x1
+»   783      new-instance v2, LX/7jd;
 ```
 
 **`smali_classes7/X/BOY.smali`** · `LX/BOY;->getDateView()Landroid/widget/TextView;` · L21476–L21490
@@ -260,7 +260,7 @@
   21479      iput-object v0, v2, LX/BOR;->A0F:Landroid/widget/TextView;
   21480
   21481      :cond_0
-  21482      iget-object v1, p0, LX/BOW;->A0D:LX/1Ex;
+» 21482      iget-object v1, p0, LX/BOW;->A0D:LX/1Ex;
 » 21483      invoke-static {v1, v0}, Ldev/soughtxp/wamodx/core/MessageRevokePrivacy;->antiRevoke(Ljava/lang/Object;Landroid/widget/TextView;)Z
   21484
   21485      return-object v0
@@ -287,12 +287,12 @@
     289
     290      .line 11
     291      .line 12
-    292      :cond_check_hide
+»   292      :cond_check_hide
 »   293      invoke-static {}, Ldev/soughtxp/wamodx/core/ComposingPrivacy;->hideComposing()Z
-    294
-    295      .line 13
-    296      .line 14
-    297      move-result v0
+»   294
+»   295      .line 13
+»   296      .line 14
+»   297      move-result v0
     298
     299      .line 15
     300      .line 16
@@ -309,14 +309,14 @@
     368      .locals 11
     369
 »   370      invoke-static {}, Ldev/soughtxp/wamodx/core/ComposingPrivacy;->hideComposing()Z
-    371
-    372      move-result v0
-    373
-    374      if-eqz v0, :continue_normal
-    375
-    376      return-void
-    377
-    378      :continue_normal
+»   371
+»   372      move-result v0
+»   373
+»   374      if-eqz v0, :continue_normal
+»   375
+»   376      return-void
+»   377
+»   378      :continue_normal
 ```
 
 > Composing / recording presence paths. The hook calls `ComposingPrivacy.hideComposing()` (reads the `hideComposing` pref) — gated in `:cond_check_hide` for 1im, first instruction for 6nE. A true result makes the host take an early `return-void`.
@@ -363,7 +363,7 @@
   16001      :cond_0
   16002      invoke-super {p0}, LX/0I8;->onResume()V
   16003
-  16004      iget-object v0, p0, Lcom/whatsapp/settings/ui/SettingsTabActivity;->A10:Landroid/widget/LinearLayout;
+» 16004      iget-object v0, p0, Lcom/whatsapp/settings/ui/SettingsTabActivity;->A10:Landroid/widget/LinearLayout;
 » 16005      invoke-static {v0}, Ldev/soughtxp/wamodx/core/SettingsHook;->inject(Landroid/view/ViewGroup;)V
   16006
   16007      .line 23
